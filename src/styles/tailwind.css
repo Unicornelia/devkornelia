@@ -34,7 +34,7 @@ a {
 
 button {
   @apply cursor-pointer;
-  @apply px-4 py-2 text-sm mx-5;
+  @apply px-6 py-4 text-sm mx-5;
   @apply border rounded text-lightest-teal bg-transparent leading-none no-underline transform duration-300;
   @apply hover:outline-none hover:shadow-md hover:-translate-x-4 hover:-translate-y-4 hover:transform hover:shadow-teal;
   @apply focus-visible:outline-none focus-visible:shadow-md focus-visible:-translate-x-4 focus-visible:-translate-y-4 focus-visible:shadow-teal;

@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import dayjs from 'dayjs';
-import { skills } from '../variables.ts';
+import { skills } from '@/variables.ts';
 
 const Skills: FC = () => {
   const today = dayjs().year();

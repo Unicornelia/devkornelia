@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Button } from '@/components/Button.tsx';
-import { email } from '../variables.ts';
+import { email } from '@/variables.ts';
 
 const Contact: FC = () => {
   return (

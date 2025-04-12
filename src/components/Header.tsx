@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react';
 import { navLinks } from '../variables.ts';
-import TealK from '../assets/tealK.jpg';
+import TealK from '@/assets/tealK.jpg';
 
 type NavLink = {
   name: string;
