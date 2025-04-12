@@ -13,7 +13,7 @@ export const socialMedia = [
 ];
 
 export const skills = [
-  'JavaScript (ES6+)',
+  'JS(ES6+)',
   'TypeScript',
   'React',
   'Gatsby',
@@ -25,13 +25,9 @@ export const skills = [
   'MongoDB',
   'SQL',
   'TDD',
-  'Unit Testing',
-  'Integration Testing',
-  'E2E Testing',
   'Webpack',
   'Vite',
   'Jest',
-  'React-testing library',
   'Git',
   'CSS',
   'TailwindCSS',

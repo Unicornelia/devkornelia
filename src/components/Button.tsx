@@ -6,5 +6,5 @@ type ButtonProps = {
 };
 
 export const Button: FC<ButtonProps> = ({ text }) => {
-  return <button className="btn">{text}</button>;
+  return <button>{text}</button>;
 };

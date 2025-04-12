@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import 'tailwindcss';
-@import 'tw-animate-css';
 @tailwind utilities;
 
 @theme {
   --color-dark-teal: #05141e;
   --color-teal: #123247;
-  --color-lightest-teal: #1a535b;
+  --color-lightest-teal: #377e88;
   --color-navy-shadow: rgba(6, 22, 47, 0.7);
   --color-dark-slate: #57647e;
   --color-slate: #b1c6d2;
@@ -22,15 +20,19 @@
 }
 
 body {
-  @apply text-slate bg-dark-teal font-mono m-0;
+  @apply text-slate bg-dark-teal font-mono m-0 min-h-dvh;
   @apply box-border w-full scroll-smooth min-h-full;
+}
+
+main {
+    @apply m-auto w-full pt-10 pb-10 pr-10 pl-10;
 }
 
 a {
   @apply hover:text-green no-underline;
 }
 
-.btn {
+button {
   @apply cursor-pointer;
   @apply px-4 py-2 text-sm mx-5;
   @apply border rounded text-lightest-teal bg-transparent leading-none no-underline transform duration-300;
