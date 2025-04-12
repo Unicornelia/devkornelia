@@ -6,5 +6,9 @@ type ButtonProps = {
 };
 
 export const Button: FC<ButtonProps> = ({ text }) => {
-  return <button>{text}</button>;
+  return (
+    <button role="button" aria-roledescription="button">
+      {text}
+    </button>
+  );
 };
