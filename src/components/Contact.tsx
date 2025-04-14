@@ -4,7 +4,10 @@ import { email } from '@/variables.ts';
 
 const Contact: FC = () => {
   return (
-    <section id="contact" className="flex text-center justify-evenly mt-40">
+    <section
+      id="contact"
+      className="inline-grid grid-cols-[repeat(2,_minmax(140px,_300px))] text-center justify-evenly mt-20 sm:mt-10 md:mt-40"
+    >
       <a href="/resume.pdf" target="_blank">
         <Button text="Resume" />
       </a>
